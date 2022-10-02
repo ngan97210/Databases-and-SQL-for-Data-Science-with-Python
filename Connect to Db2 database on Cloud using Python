@@ -33,6 +33,8 @@ dsn = (
 print(dsn)
 
 #DO NOT MODIFY THIS CELL. Just RUN it with Shift + Enter
+
+ibm_db.close(conn)
 #Create database connection
 
 try:
