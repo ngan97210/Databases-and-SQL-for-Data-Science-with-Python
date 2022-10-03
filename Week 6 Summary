@@ -2,3 +2,10 @@
 - An ACID transaction is one where all the SQL statements must complete successfully, or none at all.
 - A stored procedure is a set of SQL statements that are stored and executed on the database server, allowing you to send one statement as an alternative to sending multiple statements.
 - You can write stored procedures in many different languages like SQL PL, PL/SQL, Java, and C.
+
+- A join combines the rows from two or more tables based on a relationship between certain columns in these tables.
+- To combine data from three or more different tables, you simply add new joins to the SQL statement. 
+- There are two types of table joins: inner join and outer join; and three types of outer joins: left outer join, right outer join, and full outer join. 
+- The most common type of join is the inner join, which matches the results from two tables and returns only the rows that match.
+- You can use an alias as shorthand for a table or column name.
+- You can use a self-join to compare rows within the same table.
